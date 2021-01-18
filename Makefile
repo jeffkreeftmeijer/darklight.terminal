@@ -6,3 +6,4 @@ generate:
 	plutil -remove TextBoldColor darklight.terminal
 	plutil -remove TextColor darklight.terminal
 	plutil -remove name darklight.terminal
+	plutil -insert ProfileCurrentVersion -float 2.0699999999999998 darklight.terminal
